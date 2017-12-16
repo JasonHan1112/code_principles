@@ -1,3 +1,30 @@
-this is for coding:
-it's best to obey some principles when coding 
+
+preface:
+this is for coding...
+it's best to obey some principles when coding.
+
+20171211
+initialize function pointer is better than initialize function;
+K.I.S.S;
+one function one function;
+provide interface but don't provide how to complete a job;
+
+20171212
+if some functions with similar function, need a macro to define a function name;
+return 0 when function operates normally, return -1 when function operates fail;
+when some bad things happen, need go to revert what we have done before in this function;
+
+20171216
+"goto error;" 
+error handle must at the last(after success return) 
+
+/*
+error1:
+printf("reason or status\n"); 
+return ERROR_NUM;
+
+error2:
+printf("reason or status\n");
+return ERROR_NUM;
+*/
 
